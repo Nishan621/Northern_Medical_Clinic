@@ -1,0 +1,44 @@
+/* filepath: /d:/Apic/Capstone B/Northern_Medical_Clinic/NMC/frontend/src/styles/Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0.5rem 0 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}

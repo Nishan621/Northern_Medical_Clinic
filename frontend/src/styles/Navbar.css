@@ -1,0 +1,41 @@
+/* filepath: /d:/Apic/Capstone B/Northern_Medical_Clinic/NMC/frontend/src/styles/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4CAF50;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo a {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 2rem;
+  
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 2rem;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #ffeb3b;
+}

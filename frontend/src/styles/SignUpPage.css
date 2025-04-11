@@ -1,0 +1,50 @@
+/* filepath: /d:/Apic/Capstone B/Northern_Medical_Clinic/NMC/frontend/src/styles/SignUpPage.css */
+
+.signup-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signup-page h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.signup-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-page form div {
+  margin-bottom: 1rem;
+}
+
+.signup-page form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.signup-page form input,
+.signup-page form select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.signup-page form button {
+  padding: 0.75rem;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-page form button:hover {
+  background-color: #45a049;
+}

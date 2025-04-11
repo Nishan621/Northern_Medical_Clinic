@@ -1,0 +1,44 @@
+/* filepath: d:/Apic/Capstone B/Northern_Medical_Clinic/NMC/frontend/src/styles/PatientDashboard.css */
+.patient-dashboard {
+    padding: 20px;
+  }
+  
+  .profile, .medical-records, .appointments {
+    margin-bottom: 20px;
+  }
+  
+  .profile p, .medical-records .record p {
+    margin: 5px 0;
+  }
+  
+  .appointments form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .appointments form div {
+    margin-bottom: 10px;
+  }
+  
+  .appointments form label {
+    margin-bottom: 5px;
+  }
+  
+  .appointments form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .appointments form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .appointments form button:hover {
+    background-color: #45a049;
+  }
