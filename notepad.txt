@@ -1,0 +1,639 @@
+EDUSTREAM’
+Introduction EDUSTREAMs, a technological ecosystem which mainly belongs to the educational institutions, is dominated by the heavenly position of the Administrator. It is a crucial post that involves taking full care of the system from setting it up, maintaining it and updates. It is the duty of the administrators to develop and maintain user accounts, authenticate access, and integrate EDUSTREAM with other e-learning tools to provide a much more interactive learning environment. Their tasks go beyond technical managing and provide users with support and training that are empowering educators and students to fully utilize the platform's capabilities. Furthermore, the administrators safeguard the reliability and safety of the data, hence creating a healthy learning environment. In both designing and utilizing, they put the needs of their organizations first, incorporating new features and updates to make the learning environment interactive and technology driven. As administrators implement their policies, there is a fostering of an interactive intellectual environment that enhances the quality of learning, leading to a connection between learners, teachers, and technology.
+Functions 1. User Management: Authorities oversee registering and managing user accounts. Specifically, there is the allocation of user roles, permissions, and the ability of each user to have appropriate access levels.
+2. Admin Login: They keep strong admin login mechanisms so that only those authorized persons can get access to the authorized parts of the platform.
+3. Report Generation: The administrators use their systems to create various reports that provide useful information about usage patterns, performance, and other important data which are critical for coming up with the best solutions and strategies.
+04. Feedback: They gather and process feedback from the users to advance the platform. In this
+regard, paying attention to not only students' but also teachers' concerns and challenges is
+critical, and decisions are made to improve the situation.
+5. Content Management: The task involves managing and organizing the material including the
+upload, the updating, and the storage of the educational material. This is done so that the
+materials are up-to-date, valid, and well-arranged for simple retrieval success.
+User Manual AS AN ADMIN: BIBEK
+System Setup:
+Hardware Setup
+• RAM(Random access memory): for the seamless performance of this application we are
+in need of a server with a minimum of 4GB ram. RAM is the core component that
+enables the system to boot the program as well as manage background tasks at the same
+time like internet browser, system services and other background stuffs that are running
+in the system.
+• Processor (CPU): The system will reach its best performance when the server is having
+atleast the dual core processor or more. Instruction is followed to process and data is
+handled through processing and is usually called the brain of the system. Dual core setup
+will permit server not only to perform two independent but also simultaneous tasks at
+each of its two cores. This is just what is needed to enable smooth functioning in the peak
+hours when the maximum users will use our product simultaneously.
+• Disk space (HDD/SSD): at least 20gb hard disk drive with 5200RPM (RPM) is needed
+for this app and other programs like windows, microsoft office and an antivirus program,
+which will be included in the application. This will include user uploaded content as well
+application logs and mysql database as well as apache server. A huge disk space is
+necessary for the system to work uninterrupted and normal wear and tear like storage
+related issues that affect the system further may slowdown the system.
+1Software setup:
+ XAMPP: It is essential to install the XAMPP which facilitates completely automatic
+installation of the Apache web server, the database of MySQL/MariaDB and the interpreter
+of PHP. It solves the problem of having perfect for the common integrated development
+environment that is well packaged with all components required for web hosting and thus,
+the download and deployment of the app. The other alternative is Laragon and it does the
+same either but aside from that, it includes many other additional toolkits. Installed version
+of XAMPP is 3.3.0.
+ MYSQL database: Our program utilizes the MySQL continuous databse management
+system to keep and enforce all data. MySQL is a famed database which is praises for its
+performance, robustness and scalability. It is owned by Oracle database which means, if
+you want to go towards the open-source route, you can look at MariaDB which has the
+2same data types as the original author of MySQL and it is designed by him. Any SQL query
+for MySQL will work as well on MariaDB. We are now on version 10.4.28 MySQL.
+ Apache web server: Our application uses Apache as a web server software which helps
+in processing HTTP requests and providing responses to them. Features such as hosting
+virtual sites, dynamic content support and good security measures are included. It has
+proven to be perfect when it comes to PHP development. We have xampp on the windows
+8.2.4 version.
+3 PHP language: PHP language: In addition, there is PHP, which is a server-side scripting
+language that is even more suited for backend web development. The app is feature-rich,
+versatile and easy to use. The language design aims to include the principles of safety,
+effective application and reliability. Variety of PHP frameworks have come up in today's
+world and the one most famously known is Laravel. PHP ver.8.2 is our tools.
+System usability
+1. User Management:
+ As the Administrator, you are tasked with registering and maintaining user accounts in the
+system.
+ Establish roles and permissions based on user’s tasks and requirements.
+ Make sure that each user differentiated by access levels likely has appropriate access to the
+platform's features and functionalities.
+42. Admin Login:
+ Make sure to keep strong and admin login mechanisms, so to protect the unauthorized areas
+of the platform.
+ Only authorized employees should be permitted entry to the administrative features and
+workflow.
+3. Report Generation:
+ Use the system to produce reports that contain analytical information about usage patterns,
+performance metrics, and other useful data.
+ These reports are the basis of data analysis to determinate the effectiveness of solutions
+and strategies that will improve the platform's performance and users engagement.
+54. Feedback:
+ Request and analyze information on usability submitted by users, including students and
+teachers.
+ Pay attention to their questions, complaints and suggestions, which will be very useful for
+you to improve the product or service.
+ Use this feedback to make educated arguments and put in place amendments that could
+make the platform work better.
+65. Content Management:
+ Control the organizational and educational process within the platform.
+ Upload, update, and store all educational content ensuring that it is current, relevant and
+easily obtainable for users.
+ Make learning materials easy to look for and use it in a way that helps the users to succeed.
+7 Upload, update, and store all educational content ensuring that it is current, relevant and
+easily obtainable for users.
+ Make learning materials easy to look for and use it in a way that helps the users to succeed.
+8Report generation
+9Providing Feedback
+10Content management
+Project Title: EDU STREAM AS AN EDUCATOR
+Group Member Names and IDs: TALHA BIN TAHIR (202200085)
+1.1.1
+System Setup
+1.1.2
+1.1.1.1 Hardware Setup
+1.1.1.2 Software Setup
+System Usability
+1.1.3
+1.1.2.1 First Functional Requirement User Interface
+1.1.2.2 Second Functional Requirement User Interface
+1.1.2.3 Third Functional Requirement User Interface
+1.1.2.4 Fourth Functional Requirement User Interface
+1.1.2.5 Fifth Functional Requirement User Interface
+1.1.2.6 Sixth Functional Requirement User Interface
+System Testing
+1.1.3.1 First User Interface Testing
+1.1.3.2 Second User Interface Testing
+1.1.3.3 Third User Interface Testing
+1.1.3.4 Fourth User Interface Testing
+1.1.3.5 Fifth User Interface Testing
+1.1.3.6 Sixth User Interface Testing
+112. Introduction
+We have created this database for edustream, this helps us in fulfilling the requirements
+of Educator module. It includes the details of the educator including his name, email,
+password (hashed), Bio, their field of specialization as well as the link towards their profile
+picture online or the path of it, their address and their phone number for their proper
+record. Content table includes the details related to the content including their title, type
+of content, it’s description as well as the path of the content and its upload date. The
+earnings of each content are illustrated in Earnings table which includes the view count
+as well as the earning amoun. There are two types of feedbacks that includes the feedback
+for educator and the feedback for the content. EducatorFeedback includes LearnerID who
+gives feedback as well as the rating and comments given to the Educator by the learner.
+Similarly, ContentFeedback includes the comments and feedback related to the Content.
+Analytics table includes the analytics related to the content which includes the number
+of likes, shares, dislikes and views on the content and Session table will handle the
+functionality of login and logout and allotting the educator their unique sessionId as well.
+3. Model 1 Name User Manual (TALHA BIN TAHIR) EDUCATOR
+Hardware setup:
+RAM(Random access memory): for smooth operation of this application we require a
+server with a minimum of 4GB ram. RAM is vital for the system to load the program and
+efficiently handle concurrent processes such as user requests, database cache and other
+background tasks that are running like explorer, browser and other system tasks.
+Processor (CPU): The application’s optimal performance requires that the server occupies
+atleast a dual core processor. Processor executes instructions and process data and is
+often called brain of the computer. Dual core setup will help the server to fulfil two
+independent simultaneous tasks on two independent cores. This will come to full use in
+the peak usage when multiple users are using our product concurrently.
+Disk space (HDD/SSD): atleast 20gb hard disk drive with 5200RPM(Rounds per minute) is
+required for this app and other programs that that will be included alongside it like
+windows, microsoft office, an antivirus program etc. For our application, this will include,
+user uploaded content, application logs, mysql database as well as apache server. Ample
+disk space is necessary for the system to work smoothly and avoid storage related issues
+that can further slowdown the system.
+Software setup:
+12 XAMPP : We need to install XAMPP software which helps in automated installation of
+Apache server, MySQL/MariaDB database and PHP. It provides a convenient solution for
+setting up local integrated development environment because it bundles itself with
+necessary web hosting elements that are crucial for deploying and hosting the app.
+Second alternative is Laragon, and it works the same way as well but includes a few
+extra toolkits as well. We have XAMPP version 3.3.0 installed.
+ MYSQL database: Our application relies on MySQL relational database management
+system to store and manage data. MySQL is a well-known database that is known for its
+robustness, scalability and performance. It was acquired by Oracle database so if you
+want to go towards open-source route, you can check out MariaDB which is designed by
+original author of MySQL and it has same data types as well. Any SQL query for MySQL
+will run on MariaDB as well. We are running version 10.4.28 MySQL
+13 Apache web server: In our application Apache is used as a web server software that
+helps in hosting application web pages and processing HTTP requests from client and
+replying to them as well. It includes virtual hosts, dynamic content support as well as
+robust security measures. It is very well suited for PHP development. We have XAMPP
+version running on windows and 8.2.4
+ PHP language: Last but not the least we have PHP which is a server-side scripting
+language well suited for backend web development. It is feature rich, versatile and easy
+to use. The language design ensures best practices of security, performance and
+maintainability. Many frameworks of PHP exist today with Laravel being the most
+famous one. We are using PHP version 8.2.4
+14
+Educator Module offers a user-friendly platform for educators to manage content,
+queries, analytics and their profiles seamlessly.
+ It includes interactive features and content management capabilities where educators
+can upload, delete and edit the content.
+ It includes a query management system as well where students can add queries and
+educator can response to them.
+ Profile management system helps educator change their profile data and delete it as
+well when needed.
+ Robust authorization and authentication measures are in place to secure the app.
+ Educator can view the performance of their details through metrics such as views,
+likes, dislikes, comments etc.
+FUNTIONAL REQUIREMENTS:
+Following are the functional requirements that were given to us for essential functioning of Edu
+stream project
+1. Login and Logout: Authentication and Authorization
+2. Educator Profile Management
+3. Educational Content Management
+4. Feedback and Comment Management
+5. Analytics Management
+6. Revenue Dashboard Management
+We have chosen to create the following tables in database for the fulfillment of functional requirements
+of Educator’s module of Edustream project.
+15System Usability
+ Educator Module offers a user-friendly platform for educators to manage content, queries,
+analytics and their profiles seamlessly.
+ It includes interactive features and content management capabilities where educators can
+upload, delete and edit the content.
+ It includes a query management system as well where students can add queries and educator
+can response to them.
+ Profile management system helps educator change their profile data and delete it as well when
+needed.
+ Robust authorization and authentication measures are in place to secure the app.
+ Educator can view the performance of their details through metrics such as views, likes, dislikes,
+comments etc.
+Functional requirement 1: Authentication and Authorization.
+•
+Login functionality
+•
+•
+Logout functionality
+Signup/Register functionality
+• Authentication: Only Logged in Educator can view and interact with the web app
+• Authorization: Logged in Educator can see their Content, Analytics, Earnings, Queries, Profile
+only.
+1617Signup/Registration page
+• If the user is new and wants to sign up on our platform
+• He goes to register page instead and registers himself.
+• Upon successful registration, user is created in the database and his password is stored as
+shown below
+Dashboard/Home page
+• Upon successful login, educator can see the homepage
+•
+It includes tabs for different functional requirements
+•
+It also has profile management and reset password functionality which will be shown in next
+slides
+18Functional requirement 2: Educational content upload.
+• Content upload in folder on server and database.
+• Content delete from folder from server and database.
+•
+Viewing analytics of content
+•
+Viewing details of the content that can be added in the future.
+Content page:
+• Upon successful login, educator can see content page
+• Shows the content uploaded by john and the option to edit, see details, analytics and delete
+button.
+19Uploading new content:
+• Educator can give description about the content and press the choose file button
+•
+Select a file to upload and press the upload button
+• Content will be uploaded successfully on upload folder in server as well as the database
+Editing the content
+• If Educator wants to change the details of the content, they can do it as well.
+•
+Let’s edit the description of the content to edited description and press the submit button
+• As we can see the description has been updated in the database
+20Deleting the content
+• If user wants to delete the content they can do that by pressing the delete button, What it does
+is that it deletes the file in the server as well as remove that data from database as well
+Viewing Details of the content
+• Educator can see further details of the content and more details can be added as well in the
+future.
+21Functional requirement 3: User profile management
+• Change Educator’s profile details like address, specialization etc.
+• Reset password
+Edit profile
+22• By clicking on profile management, user can change their profile details
+• Press submit to save the details to database.
+Reset password
+• If Educator wants to reset the password they can do so by clicking on the reset password button
+• If the passwords don’t match, it will give error
+• Upon success, the user is logged out and is asked to login again with the new password.
+23Functional requirement 4:Feedback and Query management
+• See the queries generated by students
+• Reply to queries
+•
+View details of the query
+• Delete the query
+Query page
+24• Educator can reply to the query by pressing the reply button and entering the reply in the new
+page
+• Educator can view the details of the query. We can add more details as well in the future.
+25• After the query has been resolved, Educator can delete it as well
+Functional requirement 5: Analytics
+•
+View analytics of the content form the content page in a dialogue box
+• Separate analytics page
+• By clicking on the analytics button in the content tab, educator can see the analytics of the
+uploaded content
+2627BIPIN AS AN LEANER
+Introduction
+EduStream presents itself as a blazing torch of digital education reimagined in the sea of
+continuous change of digital education with the most brilliance and sophistication. The key part of
+the platform is its well-designed database, a corner which became the fuel of platform’s
+advantages, efficiently storing educational materials and tracking personal profiles and
+subscriptions. This overwhelming reservoir serves as the legitimate basis for the interactive model
+of EduStream, which sets the learner-course relationships aggrandized like never before. In this,
+one is the king the grants learners the freedom to choose how they can go for the learning
+experience catering to their specific likes and wants.. The database, which can easily hold
+exhaustive feedback, score distributions as well as interactions with teachers not only sharpens
+personalization of the content, but also supercharges recommendation engines thus every students
+receive precise direction based on their needs. Additionally, EduStream's smooth login/logout
+operations and easy subscription management reflect user-driven design which gives users a
+trouble-free continuous access to knowledge. Therefore, EduStream's database turns out to be the
+hinge, which enables a radical rather than gradual reformation of the learning journey both for the
+teacher and the student.
+Functions
+1. Profile Management: Learners can always generate and keep updating their personal
+profiles, with details like educational advantages, interests, and learning targets, are
+included. This feature guarantees that learners' learning experiences are tailored to suit their
+specific interests.
+2. Subscription Management: Followers have the chance to cancel, upgrade or terminate their
+plans voluntarily as per requirement. They can assess various options and select the one
+that closely aligns to their current situation.
+3. Feedback: Users may make out comments on most parameters of the platform, such as the
+quality of material, the efficiency of learning, and the teacher’s interactions. The insight
+from the feedback loop improves the platform, helps it sustain in position and enhances the
+overall learning experience.
+284. Content Access: Learners are going to have the opportunity to obtain a set of educational
+information produced by the developers of the platform and stored in the platform's
+database. Such elements comprise videos, articles, quizzes, interactive simulations, and
+others. These record numerous subjects and topics.
+5. Learning Path: Learners can tailor their experiences according to their specific needs,
+interests, goals, and preferences to learning modes. They may be able to search for the
+material, follow curated learning paths, or make their own learning paths. That would give
+students an opportunity to become the owners of their education and to grow faster than
+before.
+User Manual
+Hardware setup
+Hard Drive: Modern computing not only considers vast storage capacities when building the
+computer system, but also gives priority to hard drives as the critical device in a computer system.
+Mostly, hard drives store data, programs, and operating systems with magnetic technologies in
+order to ensure the long-term storage of data. The latest hard drives in the market today, spanning
+from basic models to advanced ones, are characterized by vast storage capacities. The basic models
+have a few hundred gigabytes while the advanced ones, on the other hand, are of several terabytes.
+For average customers, a hard drive at least 1TB is suggested to address the continuous growth in
+size of modern applications as well as media and backup files. Certain jobs like video editing,
+gaming, or server administration may become data-intensive and a 2 terabytes or more may be
+required. Besides SSDs, which are known for their better data transfer speeds and reliability
+techniques compared to HDDs, are also common choices. With SSDs being equipped with flash
+memory, the access times will be faster and the latency will be lower. This technology not only
+boosts the performance level but also engages in the maintenance of the overall system.
+Due to digital content and software development trends, scalable storage options, incorporating
+hybrid systems that have HDDs for storage and SSDs for performance improvement, in this case,
+29are what is appropriate. This allows the storage system to be equipped with the required capacity
+in order to handle future demands without necessitating of upgrades.
+Monitor: The monitor is a critical entity with which the output angle of a computer's graphics card
+is displayed on its screen, enabling users to engage with different software applications, media and
+internet. Modern monitors carry a variety of sizes, resolution, and technologies such as LCD
+(Liquid Crystal Display), LED (Light emitting Diode), and OLED (Organic Light Emitting Diode),
+all with their specific benefits and that are ideal for different types of users.
+For example, for basic purposes as web browsing and office work, an ordinary monitor with 1920
+x 1080 resolution (known as full HD IP) is usually enough. These means keep the level of clarity
+while sparing you the expense of high-resolution images. But those who deal with intricate
+designing like high-end video editing or graphic design should consider opting for the monitors
+that have 4K resolution. This high-res display means more detail and more workspace area to
+increase both work efficiency and fun.
+Additionally, the refresh rate and response time turn to be everything for players and professionals
+who work in time-sensitive situations. High refresh rate (measured in Hz) gives smooth motion
+clarity on the other hand, low response time (measured in milliseconds) causes less motion blur,
+and both of them leads to having the better viewing experiences. OLED technology delivers the
+best color rendition and contrast, which explains the popularity of these monitors especially for
+those whose work requires accurate field representation and image fidelity.
+Software Setup
+XAMPP: XAMPP installation is a rather simple and user-friendly task. Just download the version
+which is specific to your operating system from the official website and install it using the wizard.
+There comes a time when the installation stage, you will get to pick what components you would
+like to add, such as Apache, MySQL, PHP and Perl. Although this program is not designed for
+live websites, its main goal is to install a server environment on your personal computer where
+you can develop and test your web based applications without needing a live server.
+30VSC: Installation of VS Code (VS Code) is also a simple process. Download the installer from the
+official site and then run it. The installer walks you through the setup process in such a way as to
+enable you to specify the path for the installation and to create shortcuts. Installing VS Code is all
+that is needed, immediately granting the developer the use of a versatile and feature-filled IDE
+(integrated development environment) that is equally adept with a number of programming
+languages and development tasks.
+311. Profile Management
+Purpose: The Profile Management function empowers you to edit and keep your personalized and
+secure information updated that will maximize your learning experience.
+How to Use:
+ Accessing Your Profile: Sign into EduStream. Tap your username or the icon on the top
+right corner of the homepage. Open the 'Profile' dropdown menu.
+ Editing Your Profile: When you are on your profile page, simply click 'Edit Profile' to
+change about your personal information like name, email or password.
+ Saving Changes: Once the modifications are done, hit the 'Save' button to complete your
+profile adjustments.
+32Class
+User Interface
+33Subscription Management
+Database
+Class
+User Interface
+34UI to view feedback
+35Content Access
+Database
+Class
+User interface
+36Learning Path
+Database
+Class
+User Interface
+37Subscription Management
+38Feedback
+Content Access
+39Learning Path
+402. Subscription Management
+Purpose: The feature enables you to efficiently take care of your subscription issues by either plan
+upgrades, renewals, or cancellation.
+How to Use:
+ Viewing Your Subscription: Switch to the 'Subscription' section through 'Profile' tab. This
+page will have your current plan and renewal date info displayed.
+ Changing Your Plan: To switch to another plan click 'Change Plan'. Choose your new
+desired plan and keep going with following the instructions to finish the process.
+ Cancellation: If you want to opt out of your subscription choose option ‘Cancel
+Subscription’ and follow subsequent steps to confirm cancelation.
+413. Feedback
+Purpose: Feedback will be very useful for EduStream to improve its services. EduStream is
+customer-focused. Through this function you can submit the feedbacks on the courses, instructor
+or a platform.
+How to Use:
+• Accessing the Feedback Form: From the menu, choose 'Feedback' option. This will direct
+you to a form where you may type in your comments.
+• Submitting Feedback: Compliance of feedback form by rating various segments of service
+and additionally giving detailed remarks by annotation. When done, feel free to click
+'Submit' to send the EduStream team your feedback.
+424. Content Access
+Purpose: This imply that one can visit, view, and interact with things like courses, videos, and
+assignments, which makes educational content at one's fingerprint.
+How to Use:
+• Browsing Content: Use the account login option and employ the 'Search' tab or the category
+tabs to get the desired courses or topics.
+• Accessing Courses: On the page, click on the course details to open them, and on the
+overview page you can see the course details, start the course, or continue where you left
+off.
+• Viewing Progress: There is a progress bar or 'My Activity' section that will allow you to
+keep track your progress throughout the course.
+435. Learning Path
+Purpose: Learning Paths are sequences of courses meant to provide you with capable skills in the
+needed areas. This software determines the best order in which to present the material for ease of
+learning.
+How to Use:
+• Finding Learning Paths: Go to 'Learning Paths' from the main menu. Browse the paths
+available covering your areas of interest or career goals using the guidelines provided.
+• Enrolling in a Learning Path: Click a Learning Path to see its particulars. If it goes with
+your targets, click on the 'Enroll' button to start up.
+• Tracking Progress: Your learning progress can be tracked from your Learning Path
+dashboard, just as you start the courses which are included in the path.
+4445SYSTEM TESTING AS ADMIN:
+Function
+Test Case Description
+User
+Management
+Admin login
+Report
+generation
+Providing
+Feedback
+Content
+Management
+Create a new user with
+valid information
+Attempt to login with
+correct username and
+password
+Generate a report for user
+activities
+Submit feedback on the
+system functionality
+Upload a new document
+to the system
+Expected Result
+User is successfully
+added to the database
+Admin successfully
+logs in to the system
+Report is generated
+with relevant
+information
+Feedback is recorded
+and stored in the
+database
+Document is
+successfully uploaded
+and stored
+Actual Result
+User is added to the
+database
+Admin logs in
+successfully
+Report is generated
+with correct
+information
+Feedback is recorded
+and stored
+successfully
+Document is uploaded
+and stored
+successfully
+Pass/Fail
+Pass
+Pass
+Pass
+Pass
+Pass
+SYSTEM TESTING AS EDUCATOR:
+Test Case #1: Login
+1. Navigate to the login page of the application.
+2. Enter valid credentials (username and password) that is username:john and password 1234.
+3. Click on the "Login" button.
+4. Verify that the user is redirected to the home screen.
+5. If credentials are incorrect, verify that an error message is displayed.
+Test Case #2: Registration
+1. Navigate to the registration page of the application.
+2. Fill in the required user information in the registration form as username:john and password:
+1234.
+3. Click on the "Register" button.
+4. Verify that the user is successfully registered in the database.
+5. If any required field is missing or invalid, verify that appropriate error messages are displayed.
+Test Case #3: Viewing Dashboard
+1. Log in to the application.
+462. Navigate to the dashboard section.
+3. Verify that the user's name is displayed as John.
+4. Check if the navigation bar is present for accessing different modules.
+5. Ensure that the relevant modules are accessible from the dashboard.
+Test Case #4: Content display
+1. Log in to the application as a username:john and password:1234
+2. Navigate to the content management section.
+3. Verify that only relevant content is displayed.
+Test Case #5: Content Upload
+1. Log in to the application as a username: john and password:1234
+2. Navigate to the content management section.
+3. Check if the "Upload" option is available.
+4. Click on the "Upload" button.
+5. Select a file to upload and fill in necessary details.
+6. Click on the "Submit" or "Upload" button to upload the content.
+7. Verify that the content is successfully uploaded and visible in the content list.
+8. Check the database to ensure the new content entry is recorded accurately.
+Test Case #6: Content Deletion
+1. Log in to the application as a username: john and password:1234
+2. Navigate to the content management section.
+3. Select an existing content item from the list.
+4. Verify that options like "Edit" and "Delete" are available for the selected content.
+5. Click on the "Delete" button for the chosen content.
+6. Verify that the content is successfully deleted from the user interface.
+7. Ensure that the content entry is removed from the database.
+8. Check that the deleted content is no longer available in the upload folder.
+Test Case #7: Content Update
+471. Log in to the application as a username: john and password:1234
+2. Navigate to the content management section.
+3. Select an existing content item from the list.
+4. Verify that options like "Edit" and "Delete" are available for the selected content.
+5. Click on the "Edit" button for the chosen content.
+6. Modify the content details as required.
+7. Click on the "Save" or "Update" button to save the changes.
+8. Verify that the changes are reflected in the content details.
+9. Check the database to ensure that the updated content information is stored correctly.
+Test Case #8: Content details
+1. Log in to the application as a username: john and password:1234
+2. Navigate to the content management section.
+3. Select an existing content item from the list.
+4. Verify that option "Details" are available for the selected content.
+5. Click on the "Details" button to see the details such as title, description and upload date.
+Test Case #9: Profile Management
+1. Log in to the application as a username:john and password:1234
+2. Click on profile management button.
+3. Verify that the user's profile details are displayed.
+4. Edit some details such as email and save the changes.
+5. Verify that the changes are successfully updated in the database and reflected on the profile
+page.
+Test Case #10: Password Management
+1. Log in to the application as a username:john and password:1234
+2. Click on the "Reset Password" button.
+3. Enter the old password(1234) and set a new password(12345).
+4. Verify that the password is successfully changed.
+Log in again with the new password to ensure its validity.
+Test Case #11: Displaying Queries
+1. Log in to the application as a username:john and password:1234
+2. Navigate to the query section.
+3. Verify that all queries are displayed on the screen.
+484. Check that each query includes relevant information such as the question, date posted, replies
+(if any).
+Test Case #12: Viewing Query Details
+1. Log in to the application as a username:john and password:1234
+2. Navigate to the query section.
+3. Click on the "Details" button against the qeury.
+4. Verify that the details of the selected query are displayed.
+5. Check that the query details include the question, answer as well as the date posted.
+Test Case #13: Replying to a Query
+1. Log in to the application as a username:john and password:1234
+2. Navigate to the query section.
+3. Click on the "Reply" option against the query.
+4. Enter a response in the provided text field.
+5. Submit the reply.
+6. Verify that the reply is successfully submitted and stored in the database.
+7. Verify that the reply is shown in the "Details" section of the query.
+Test Case #14: Deleting a Query
+1. Log in to the application as a username:john and password:1234
+2. Navigate to the query section.
+3. Check if there is an option to delete the query.
+4. Click on the "Delete" option for the selected query.
+5. Confirm the deletion action.
+6. Verify that the query is successfully removed from the list and no longer visible to users.
+Check that the query entry is deleted from the database.
+Test Case #15: Analytics Display
+1. Log in to the application as a username:john and password:1234
+2. Navigate to the analytics section.
+3. Check if analytics data such as views, likes, dislikes, shares, and comments are displayed for
+the user's content.
+Test Case #16: Analytics Dialogue Box
+1. Log in to the application as a username:john and password:1234
+2. Navigate to a content page.
+3. Click on the "Analytics" button against the content.
+494. Verify that relevant analytics data is displayed for the specific content item. Close the dialogue box and ensure it functions properly
+SYSTEM TESTING AS LEARNER:
+Functionality Test Case ID
+Description Input
+Profile Management
+TC01 Edit profile information
+Change name to "Jane Doe"
+Expected Outcome
+Profile
+updates to "Jane Doe"; success message displayed.
+Subscription Management
+TC02 Change subscription plan
+Feedback
+TC03 Submit feedback form
+Content Access
+Learning Path
+TC04 Access and view a course
+TC05 Enroll in a Learning Path
+Select "Premium"
+plan Enter
+feedback: "Great courses!"
+Click on "Introduction to Programming"
+Select and
+enroll in "Physics: Basics and Beyond"
+Subscription
+updates to "Premium"; confirmation message shown.
+Feedback submitted; thank you message appears.
+Course page opens; course content is accessible.
+Enrollment successful; access to learning modules granted.
+Actual Outcomes
+Profile
+updates to "Jane Doe"; success message displayed.
+Subscription
+updates to "Premium"; confirmation message shown.
+Feedback submitted; thank you message appears.
+Course page opens; course content is accessible.
+Enrollment successful; access to learning modules granted.
+Pass Pass Status Pass Pass Pass 50

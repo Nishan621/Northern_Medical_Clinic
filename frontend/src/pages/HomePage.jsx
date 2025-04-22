@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/HomePage.css";
-import carouselImage1 from "../assets/carousel-image1.png";
+import carouselImage1 from "../assets/carousel-image1.jpg";
 import carouselImage2 from "../assets/carousel-image2.png";
 import carouselImage3 from "../assets/carousel-image3.png";
 import doctor1 from "../assets/doctor1.png";
